@@ -1,0 +1,19 @@
+name: ml
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - matplotlib=3.8.0
+  - numpy=1.26.0
+  - pandas=2.1.1
+  - pip=23.3
+  - python=3.11.5
+  - scikit-learn=1.4.0
+  - scipy=1.11.3
+  - seaborn=0.12.2
+  - sktime=0.26.0
+  - statsmodels=0.14.0
+  - prophet=1.1.6
+  - pip:
+      - pmdarima==2.0.4
+      - ucimlrepo
